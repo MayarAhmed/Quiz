@@ -1,0 +1,41 @@
+.reportBg{
+    position: fixed;
+    background-color: #463f3f7a;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+.report{
+    background-color: #010927e3;
+    position: absolute;
+    color:#fff;
+    width: 70%;
+    box-shadow: 5px 5px 10px #ccc;
+    left: 15%;
+    top: 5%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    z-index: 100;
+}
+
+
+
+.exam{
+    color: rgb(230, 153, 12);
+    text-align:center;
+    font-size:28px;
+    font-weight:bold;
+    margin:25px;
+
+}
+
+
+@media (min-width: 600px) {
+    .report {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}

@@ -1,0 +1,25 @@
+.report{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.report p{
+    font-size:35px;
+    font-weight:bold;
+    text-transform: capitalize;
+
+}
+.report .answer{
+    color:#fff;
+    width:25%;
+}
+
+.report .false{
+    color:#e82d2d;
+
+}
+
+.report .true{
+    color:#5dc35d;
+}
